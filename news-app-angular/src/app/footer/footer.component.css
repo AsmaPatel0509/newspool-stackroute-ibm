@@ -1,0 +1,47 @@
+
+.icons {
+    margin-left: 60vw;
+    size: 20px;
+}
+.fa{
+    margin-right: 20px;
+    color: #ffc107 !important;
+    font-size: xx-large;
+}
+.cinfo{
+    font-size: 10px !important;
+}
+
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    height: 130px;
+    width: 100%;
+    background-color: black;
+    color:#ffc107 !important;
+    text-align: center;
+    display:flex;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+  .mx-auto
+  {
+      margin-top: 10px;
+      margin-bottom: 10px;  
+  }
+
+  img{
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
+  }
+  figcaption{
+      color: darkslategrey;
+      font-size: medium;
+  }
+  a{
+      text-decoration: none;
+      color: floralwhite;
+  }

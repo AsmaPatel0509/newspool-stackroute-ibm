@@ -1,0 +1,77 @@
+.card {
+  height: 450px;
+  text-align: center;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 20px black;
+  /* box-shadow: 0px 0px 20px whitesmoke; */
+
+  /* border: 1px solid white; */
+  background-color: black;
+}
+
+.card-title , .card-text
+{
+  color: antiquewhite;
+  text-decoration-color: black;
+  
+}
+
+.nav-link
+{
+  align-content: center;  
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+a {
+  color: white;
+}
+.buttonClass
+{
+  align-self: center;
+  width: fit-content;
+  height: min-content;
+  padding: auto;
+  margin: 5px;
+}
+
+.singleContents
+{
+  align-content: center;
+  margin: 10px;
+  padding: 10px;
+  float: left;
+  width: 415px;
+  /* height:100%; */
+  align-self: center;
+  align-items: center;
+  /* background-color: brown; */
+  color: black;
+  box-shadow: 0 6px 10px 0 black;
+}
+
+img
+{
+  box-shadow:0 3px 13px 0 black;
+}
+.newsSet
+{
+  margin: 10px;
+  width: fit-content; 
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;    
+}
+
+.paginationClass
+{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+}

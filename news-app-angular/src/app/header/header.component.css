@@ -1,0 +1,77 @@
+.example-icon {
+  padding: 0 14px;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+.beautyfy
+{
+  text-decoration: none;
+  color: whitesmoke;
+}
+.beautyfy :hover
+{
+  color: black;
+  background-color: whitesmoke;
+  text-decoration: none;
+}
+.sticky {
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.08);
+  position: fixed;
+  top: 0px;
+  height: auto;
+  width: 100%;
+}
+.sticky a:hover {
+  cursor: pointer;
+}
+.headerRow {
+  height: auto;
+}
+/* .form-control
+{
+  margin: auto !important;
+  float: left !important;
+} */
+.searchTerm {
+  width: 100%;
+  border: 3px solid whitesmoke !important;
+  border-right: none;
+  padding: 5px;
+  height: 12%;
+  border-radius: 5px 5px 5px 5px;
+  outline: none;
+  color: black;
+}
+.dateClass
+{
+  border: 3px solid whitesmoke !important;
+  border-right: none;
+  height: 12%;
+  border-radius: 5px 5px 5px 5px;
+  outline: none;
+  color: grey;
+}
+.searchTerm:focus {
+  color: black;
+}
+.search {
+  width: max-content !important;
+}
+.searchButton {
+  width: 40px;
+  height: fit-content;
+  border: 2px solid whitesmoke !important;
+  background: whitesmoke !important;
+  text-align: center;
+  color: #fff;
+  border-radius: 2px 5px 5px 2px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.wrap{
+  float: left;
+  width: 30%;
+  margin: auto;
+  top: 45%;
+}

@@ -1,0 +1,27 @@
+<br><br>
+<div class="newsSet">
+    <div *ngFor="let bookmark of bookmarkData | paginate: { itemsPerPage:9, currentPage: p}" class="singleContent">
+        <hr>
+        <mat-card-header class="max-content">
+            <mat-card-title>{{bookmark.title}}</mat-card-title>
+            <hr>
+            <div>
+                {{bookmark.source}}
+            </div>
+        </mat-card-header>
+        <a href={{bookmark.url}} target="_blank">
+            <img src={{bookmark.urlToImage}} class="img-fluid" alt="...loading" onerror="this.src='../assets/news.jpg'">
+        </a>
+        <hr>
+        <mat-card-content>
+            {{bookmark.description}}
+        </mat-card-content>
+        <hr>
+        <button class="buttonClass" class="btn btn-info" (click)="deleteBookmark(bookmark.bookmarkId)">Delete
+            bookmark</button>
+    </div>
+</div>
+<hr>
+<pagination-controls class="paginationClass" (pageChange)="p = $event"></pagination-controls>
+<br><br>
+<br><br>

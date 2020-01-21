@@ -1,0 +1,78 @@
+<nav class="sticky">
+  <nav class="navbar  navbar-dark bg-info">
+    <span class="bg-info" style="color: whitesmoke">News Pool</span>
+    <form class="search" (ngSubmit)='getSearchNews(keyword)'>
+      <input placeholder="Search" type="search" class="searchTerm" #keyword>
+    </form>
+    <button type="button" class="btn btn-info" style="color: white !important;" routerLink="home">
+      Click Here to read Older News
+    </button>
+
+    <div class="visible-lg-block visible-sm-block header-right-divider"></div>
+
+    <div class="btn btn-group btn-sm dropleft" style="border-radius: 5px 5px 5px 5px;">
+      <button class="btn btn-outline-light" type="button" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
+        Menu
+      </button>
+      <div class="dropdown-menu bg-info">
+        <a routerLink="login" class="dropdown-item" *ngIf="!userAuthenticationCheck()" > Login/Sign up</a>
+        <a routerLink="home" class="dropdown-item" routerLink="sources"> Filter by source</a>
+        <a routerLink="bookmarks" class="dropdown-item" *ngIf="userAuthenticationCheck()"> View my bookmarks</a>
+        <a routerLink="news" (click)="logout()" class="dropdown-item" *ngIf="userAuthenticationCheck()">SignOut</a>
+      
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" (click)="watchNews()" aria-disabled="true"> Watch news (Coming Soon...)</a>
+      </div>
+    </div>
+  </nav>
+
+  <!--Home Categories and Countries-->
+
+  <nav class="navbar navbar-toggler navbar-dark bg-info">
+    <a class="nav-link" style="color: white !important;" routerLink="/news">Latest</a>
+    <a *ngFor="let category of categories" class="nav-link" style="color: white !important;"
+      routerLink="/category/{{category.value}}">
+      {{category.name}}
+    </a>
+
+    <div class="btn-group-sm">
+      <button type="button" class="btn btn-info" style="color: white !important;" (click)="setFlag(true)">
+        Search Language
+      </button>
+      <button type="button" class="btn btn-info" style="color: white !important;" (click)="setFlag(false)">
+        Search Country
+      </button>
+
+    </div>
+
+    <select class="bg-info" style="color: white;border-radius: 0px;" *ngIf="!flag">
+      <option value="none" selected disabled hidden>Select Country</option>
+      <option *ngFor="let country of countries" [value]="country.value" routerLink="/country/{{country.value}}"
+      class="nav-link bg-dark" style="color: white;"
+        >
+        {{country.name}}
+      </option>
+    </select>
+
+    <select class="bg-info" style="color: white;border-radius: 0px;" *ngIf="flag">
+      <option value="none" selected disabled hidden>Select Language</option>
+      <option *ngFor="let language of languages" [value]="language.value" class="nav-link bg-dark" style="color: white;"
+        routerLink="/language/{{language.value}}">
+        {{language.name}}
+      </option>
+    </select>
+
+  </nav>
+
+
+</nav>
+
+<button class="mr-60px" mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+  <!-- <mat-icon>more_vert</mat-icon> -->
+</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>
+    <span><a routerLink="login"> Register </a></span>
+  </button>
+</mat-menu>

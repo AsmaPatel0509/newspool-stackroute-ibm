@@ -1,0 +1,48 @@
+<div class="newsSet">
+  <div *ngFor="let source of sources | paginate: { itemsPerPage:5, currentPage: p}" class="sourceDiv">
+    <mat-card-header class="min-content">
+      <mat-card-title>
+        <div class="content3">{{source.name}}</div>
+      </mat-card-title>
+    </mat-card-header>
+    <hr>
+    <mat-card-content><a href="{{source.url}}" target="_blank">Visit website</a></mat-card-content>
+    <hr>
+    <button (click)="getSourceNews(source.id)" class="buttonClass">Get news from this source</button>
+    <hr>
+  </div>
+</div>
+<hr>
+<div class="paginationClass">
+<pagination-controls class="mx-auto" (pageChange)="p = $event"></pagination-controls>
+</div>
+<hr>
+<br><br>
+
+<div class="newsSet">
+  <div *ngFor="let mArticle of mArticles| paginate: {id: 'newArticlesPagination', itemsPerPage:3, currentPage: p2}" class="singleContents">
+    <hr>
+      <mat-card-header class="min-content">
+          <mat-card-title>{{mArticle.title}}</mat-card-title>
+          <hr>
+          {{mArticle.source.name}}
+          <hr>
+      </mat-card-header>
+      <a href={{mArticle.url}} target="_blank">
+          <img src={{mArticle.urlToImage}} class="img-fluid" alt="...loading" onerror="this.src='../assets/news.jpg'">
+      </a>
+      <hr>
+      <mat-card-content>
+        <p class="content">
+          {{mArticle.description}}
+        </p>
+      </mat-card-content>
+      <hr>
+  </div>
+</div>
+<hr>
+<div class="paginationClass">
+<pagination-controls id="newArticlesPagination" autoHide="true" class="mx-auto" (pageChange)="p2 = $event"></pagination-controls>
+</div>
+<hr>
+<br><br>

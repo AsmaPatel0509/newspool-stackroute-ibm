@@ -1,0 +1,87 @@
+<div class="card" style="width: max-content;">
+    <div class="card-header bg-light">View News</div>
+    <div class="card-body bg-light">
+      <div class="mx-auto mt-10px align-content-center">
+        <!-- Form Starts -->
+        <form [formGroup]="dateForm" (ngSubmit)="dateSubmit()">
+          <span class=" bg-light">Read News From: </span>
+          <input class="bg-light" type="date" placeholder="Enter From date:" formControlName="fromDate">
+          &nbsp;
+          <span class="bg-light">Read News To:</span>
+          <input class="bg-light" type="date" placeholder="Enter To date: " formControlName="toDate">
+          <!-- Country Area -->
+          <label class="bg-light">Select country: </label>
+
+          <mat-form-field>
+            <span class="example-spacer"></span>
+            <span class="example-spacer"></span>
+
+            <mat-select formControlName="country">
+              <mat-option *ngFor="let country of countries" [value]="country.value ">
+                {{country.name}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+          <!-- Country Area Ends -->
+
+          <!-- Category Area -->
+          <label class="bg-light">Select Category: </label>
+
+          <mat-form-field>
+            <span class="example-spacer"></span>
+            <span class="example-spacer"></span>
+
+            <mat-select formControlName="category">
+              <mat-option *ngFor="let category of categories" [value]="category.value ">
+                {{category.name}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+          <!-- Category Area Ends -->
+          <hr>
+          <!-- Button Starts -->
+          <button type="submit" class="btn bg-info">Get News</button>
+          <!-- Button Ends -->
+        </form>
+        <!-- Form Ends -->
+      </div>
+    </div>
+</div>
+
+
+<br><br>
+<div class="newsSet">
+  <app-news-card *ngFor="let article of mArticles | paginate: { itemsPerPage:15, currentPage: p}" [mArticle]="article">
+  </app-news-card>
+</div>
+<!-- <div *ngIf="errorMessage" class=" mx-auto bg-danger" style="margin: auto; text-align: center; color: aliceblue;">
+  <h1>{{errorMessage}} </h1>
+</div> -->
+<div class="paginationClass">
+  <pagination-controls class="mx-auto" (pageChange)="p = $event"></pagination-controls>
+</div>
+<br><br>
+<br><br>
+
+
+<!-- <strong *ngIf="errorMessage" class="error-message">{{errorMessage}}</strong> -->
+
+<!-- <mat-card *ngFor="let mArticle of mArticles">
+  <mat-card-header class="max-content">
+    <mat-card-title>{{mArticle.title}}</mat-card-title>
+    <hr>
+    {{mArticle.source.name}}
+    <hr>
+  </mat-card-header>
+  <a href={{mArticle.url}} target="_blank">
+    <img src={{mArticle.urlToImage}} class="img-fluid" alt="...loading" onerror="this.src='../assets/news.jpg'">
+  </a>
+  <hr>
+  <mat-card-content>
+    {{mArticle.description}}
+  </mat-card-content>
+  <hr>
+  <button class="buttonClass" (click)="addToBookmarks(mArticle)">
+    <img ng-src="../assets/bk.svg" />
+  </button>
+</mat-card> -->

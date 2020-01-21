@@ -1,0 +1,14 @@
+<br><br>
+<div class="newsSet">
+  <app-news-card *ngFor="let article of mArticles | paginate: { itemsPerPage:15, currentPage: p}" [mArticle]="article">
+  </app-news-card>
+</div>
+<!-- <div *ngIf="errorMessage" class=" mx-auto bg-danger" style="margin: auto; text-align: center; color: aliceblue;">
+  <h1>{{errorMessage}} </h1>
+</div> -->
+<hr>
+<div class="paginationClass">
+  <pagination-controls class="mx-auto" (pageChange)="p = $event"></pagination-controls>
+</div>
+<br><br>
+<br><br>

@@ -1,0 +1,13 @@
+.login-form
+{
+    height: fit-content;
+    width: 600px;
+    align-self: center;
+    margin: auto;
+}
+
+.p-2
+{
+    margin: auto;
+    cursor: pointer;
+}

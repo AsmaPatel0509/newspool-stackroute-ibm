@@ -1,0 +1,29 @@
+<div class="singleContents">
+  <hr>
+  <mat-card-header class="min-content">
+    <mat-card-title>
+      <div class="content2">{{mArticle.title}}</div>
+    </mat-card-title>
+    <hr>
+    {{mArticle.source.name}}
+    <hr>
+  </mat-card-header>
+  <div>
+    <a href={{mArticle.url}} target="_blank">
+      <img src={{mArticle.urlToImage}} class="img-fluid" alt="Image Loading" onerror="this.src='../assets/news.jpg'">
+    </a>
+    <hr>
+    <mat-card-content>
+      <p class="content">
+        {{mArticle.description}}
+      </p>
+    </mat-card-content>
+    <hr>
+    <!-- <button type="button" class="btn btn-info" (click)="addToBookmarks(mArticle)">
+      Add to bookmarks
+      <button type="button" class="btn btn-info" (click)="addToBookmarks(mArticle)">
+        <i class="fa fa-bookmark-o" aria-hidden="false"></i>
+    </button> -->
+  </div>
+  <button class="buttonClass" (click)="addToBookmarks(mArticle)">Add to bookmarks</button>
+</div>

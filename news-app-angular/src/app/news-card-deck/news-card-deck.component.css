@@ -1,0 +1,16 @@
+.newsSet
+{
+    margin: 10px;
+    width: fit-content; 
+    align-content: center;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+
+.paginationClass
+{
+    display: flex;
+}

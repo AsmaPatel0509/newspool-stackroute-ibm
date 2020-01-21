@@ -1,0 +1,110 @@
+.sourceDiv{
+    align-self: center;
+    text-align: center;
+    align-content: center;
+    margin: 1vh 1vw;
+    padding-top: 15px;
+    float: left;
+    width: 250px;
+    align-self: center;
+    align-items: center;
+    color: black;
+    box-shadow: 0 3px 5px 0 gray;
+}
+
+.newsSet
+{
+    margin: 4vw;
+    width: fit-content; 
+    align-content: center;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+
+.paginationClass
+{
+    display: flex;
+}
+
+.buttonClass
+{
+    align-self: center;
+    width: fit-content;
+    height: min-content;
+    padding: auto;
+    margin-bottom: 2px;
+}
+
+.content
+{
+    height: 5vh;
+    overflow-y: scroll;
+}
+
+.content2
+{
+    height: 8vh;
+    overflow: hidden;
+}
+ 
+  .title{
+      font-weight: bold;
+  }
+  
+  .img-article{
+      height: 350px;
+  }
+  
+  .action-buttons{
+      text-align: center;
+  }
+       
+  .singleContents
+{
+    align-self: center;
+    text-align: center;
+    align-content: center;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    margin-bottom: 2vh;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    width: 415px;
+    align-self: center;
+    align-items: center;
+    color: black;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 6px 10px 0 black;
+    /* border-radius: 20px 20px 20px 20px; */
+}
+
+.img-fluid
+{
+    align-self: center !important;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow:0 3px 13px 0 grey;
+    height: 200px !important;
+    width: 410px !important;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.img-fluid:hover
+{
+    align-self: center !important;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow:0 5px 25px 0 black;
+    /* width: 90% !important; */
+}
+
+@media(max-width:517px){
+    .singleContents {
+        width: 70%;
+    }
+}

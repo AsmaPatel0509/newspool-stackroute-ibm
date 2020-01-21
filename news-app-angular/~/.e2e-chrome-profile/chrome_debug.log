@@ -1,0 +1,157 @@
+[6754:6754:0116/175738.351723:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+[6754:6754:0116/175738.491956:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[6757:6765:0116/175739.049835:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 7
+[6776:1:0116/175739.227256:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6776:1:0116/175739.227898:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6824:1:0116/175739.683207:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6824:1:0116/175739.684287:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175740.941549:INFO:CONSOLE(98458)] "Angular is running in the development mode. Call enableProdMode() to enable the production mode.", source: http://localhost:4200/vendor.js (98458)
+[6824:1:0116/175741.016485:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6824:1:0116/175741.017399:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175741.156983:INFO:CONSOLE(203278)] "[WDS] Live Reloading enabled.", source: http://localhost:4200/vendor.js (203278)
+[6895:1:0116/175741.454086:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6895:1:0116/175741.454537:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175742.739029:INFO:CONSOLE(98458)] "Angular is running in the development mode. Call enableProdMode() to enable the production mode.", source: http://localhost:4200/vendor.js (98458)
+[6895:1:0116/175742.817793:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6895:1:0116/175742.818164:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175742.948019:INFO:CONSOLE(203278)] "[WDS] Live Reloading enabled.", source: http://localhost:4200/vendor.js (203278)
+[6921:1:0116/175743.296397:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6921:1:0116/175743.296914:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175744.595888:INFO:CONSOLE(98458)] "Angular is running in the development mode. Call enableProdMode() to enable the production mode.", source: http://localhost:4200/vendor.js (98458)
+[6921:1:0116/175744.677423:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6921:1:0116/175744.678067:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175744.796403:INFO:CONSOLE(203278)] "[WDS] Live Reloading enabled.", source: http://localhost:4200/vendor.js (203278)
+[6944:1:0116/175745.155677:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6944:1:0116/175745.156463:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175746.422179:INFO:CONSOLE(98458)] "Angular is running in the development mode. Call enableProdMode() to enable the production mode.", source: http://localhost:4200/vendor.js (98458)
+[6944:1:0116/175746.502300:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6944:1:0116/175746.502653:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175746.625259:INFO:CONSOLE(203278)] "[WDS] Live Reloading enabled.", source: http://localhost:4200/vendor.js (203278)
+[6968:1:0116/175746.959218:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6968:1:0116/175746.959865:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175748.250617:INFO:CONSOLE(98458)] "Angular is running in the development mode. Call enableProdMode() to enable the production mode.", source: http://localhost:4200/vendor.js (98458)
+[6968:1:0116/175748.335541:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6968:1:0116/175748.335899:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175748.447023:INFO:CONSOLE(203278)] "[WDS] Live Reloading enabled.", source: http://localhost:4200/vendor.js (203278)
+[6991:1:0116/175748.786079:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6991:1:0116/175748.786574:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175750.075654:INFO:CONSOLE(98458)] "Angular is running in the development mode. Call enableProdMode() to enable the production mode.", source: http://localhost:4200/vendor.js (98458)
+[6991:1:0116/175750.156948:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6991:1:0116/175750.157487:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175750.273241:INFO:CONSOLE(203278)] "[WDS] Live Reloading enabled.", source: http://localhost:4200/vendor.js (203278)
+[7015:1:0116/175750.686585:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7015:1:0116/175750.687156:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175751.957901:INFO:CONSOLE(98458)] "Angular is running in the development mode. Call enableProdMode() to enable the production mode.", source: http://localhost:4200/vendor.js (98458)
+[7015:1:0116/175752.039195:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7015:1:0116/175752.039503:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175752.175577:INFO:CONSOLE(203278)] "[WDS] Live Reloading enabled.", source: http://localhost:4200/vendor.js (203278)
+[7038:1:0116/175752.504416:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7038:1:0116/175752.504775:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175753.806557:INFO:CONSOLE(98458)] "Angular is running in the development mode. Call enableProdMode() to enable the production mode.", source: http://localhost:4200/vendor.js (98458)
+[7038:1:0116/175753.892916:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7038:1:0116/175753.893376:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175754.024110:INFO:CONSOLE(203278)] "[WDS] Live Reloading enabled.", source: http://localhost:4200/vendor.js (203278)
+[7061:1:0116/175754.363779:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7061:1:0116/175754.364130:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175755.676358:INFO:CONSOLE(98458)] "Angular is running in the development mode. Call enableProdMode() to enable the production mode.", source: http://localhost:4200/vendor.js (98458)
+[6720:6720:0116/175755.700204:INFO:CONSOLE(69393)] "ERROR Error: Uncaught (in promise): Error: Cannot match any routes. URL Segment: 'signup-login'
+Error: Cannot match any routes. URL Segment: 'signup-login'
+    at ApplyRedirects.noMatchError (http://localhost:4200/vendor.js:157407:16)
+    at CatchSubscriber.selector (http://localhost:4200/vendor.js:157371:28)
+    at CatchSubscriber.error (http://localhost:4200/vendor.js:189236:31)
+    at MapSubscriber._error (http://localhost:4200/vendor.js:186496:26)
+    at MapSubscriber.error (http://localhost:4200/vendor.js:186476:18)
+    at MapSubscriber._error (http://localhost:4200/vendor.js:186496:26)
+    at MapSubscriber.error (http://localhost:4200/vendor.js:186476:18)
+    at MapSubscriber._error (http://localhost:4200/vendor.js:186496:26)
+    at MapSubscriber.error (http://localhost:4200/vendor.js:186476:18)
+    at ThrowIfEmptySubscriber._error (http://localhost:4200/vendor.js:186496:26)", source: http://localhost:4200/vendor.js (69393)
+[7061:1:0116/175755.714965:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7061:1:0116/175755.716042:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175755.821337:INFO:CONSOLE(203278)] "[WDS] Live Reloading enabled.", source: http://localhost:4200/vendor.js (203278)
+[7084:1:0116/175756.142530:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7084:1:0116/175756.142983:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175757.403043:INFO:CONSOLE(98458)] "Angular is running in the development mode. Call enableProdMode() to enable the production mode.", source: http://localhost:4200/vendor.js (98458)
+[6720:6720:0116/175757.421316:INFO:CONSOLE(69393)] "ERROR Error: Uncaught (in promise): Error: Cannot match any routes. URL Segment: 'signup-login'
+Error: Cannot match any routes. URL Segment: 'signup-login'
+    at ApplyRedirects.noMatchError (http://localhost:4200/vendor.js:157407:16)
+    at CatchSubscriber.selector (http://localhost:4200/vendor.js:157371:28)
+    at CatchSubscriber.error (http://localhost:4200/vendor.js:189236:31)
+    at MapSubscriber._error (http://localhost:4200/vendor.js:186496:26)
+    at MapSubscriber.error (http://localhost:4200/vendor.js:186476:18)
+    at MapSubscriber._error (http://localhost:4200/vendor.js:186496:26)
+    at MapSubscriber.error (http://localhost:4200/vendor.js:186476:18)
+    at MapSubscriber._error (http://localhost:4200/vendor.js:186496:26)
+    at MapSubscriber.error (http://localhost:4200/vendor.js:186476:18)
+    at ThrowIfEmptySubscriber._error (http://localhost:4200/vendor.js:186496:26)", source: http://localhost:4200/vendor.js (69393)
+[7084:1:0116/175757.438423:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7084:1:0116/175757.438733:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175757.546204:INFO:CONSOLE(203278)] "[WDS] Live Reloading enabled.", source: http://localhost:4200/vendor.js (203278)
+[7107:1:0116/175757.883278:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7107:1:0116/175757.884080:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175759.193998:INFO:CONSOLE(98458)] "Angular is running in the development mode. Call enableProdMode() to enable the production mode.", source: http://localhost:4200/vendor.js (98458)
+[6720:6720:0116/175759.216484:INFO:CONSOLE(69393)] "ERROR Error: Uncaught (in promise): Error: Cannot match any routes. URL Segment: 'signup-login'
+Error: Cannot match any routes. URL Segment: 'signup-login'
+    at ApplyRedirects.noMatchError (http://localhost:4200/vendor.js:157407:16)
+    at CatchSubscriber.selector (http://localhost:4200/vendor.js:157371:28)
+    at CatchSubscriber.error (http://localhost:4200/vendor.js:189236:31)
+    at MapSubscriber._error (http://localhost:4200/vendor.js:186496:26)
+    at MapSubscriber.error (http://localhost:4200/vendor.js:186476:18)
+    at MapSubscriber._error (http://localhost:4200/vendor.js:186496:26)
+    at MapSubscriber.error (http://localhost:4200/vendor.js:186476:18)
+    at MapSubscriber._error (http://localhost:4200/vendor.js:186496:26)
+    at MapSubscriber.error (http://localhost:4200/vendor.js:186476:18)
+    at ThrowIfEmptySubscriber._error (http://localhost:4200/vendor.js:186496:26)", source: http://localhost:4200/vendor.js (69393)
+[7107:1:0116/175759.232845:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7107:1:0116/175759.233880:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175759.339519:INFO:CONSOLE(203278)] "[WDS] Live Reloading enabled.", source: http://localhost:4200/vendor.js (203278)
+[7130:1:0116/175759.649565:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7130:1:0116/175759.650030:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175800.921183:INFO:CONSOLE(98458)] "Angular is running in the development mode. Call enableProdMode() to enable the production mode.", source: http://localhost:4200/vendor.js (98458)
+[6720:6720:0116/175800.945258:INFO:CONSOLE(69393)] "ERROR Error: Uncaught (in promise): Error: Cannot match any routes. URL Segment: 'signup-login'
+Error: Cannot match any routes. URL Segment: 'signup-login'
+    at ApplyRedirects.noMatchError (http://localhost:4200/vendor.js:157407:16)
+    at CatchSubscriber.selector (http://localhost:4200/vendor.js:157371:28)
+    at CatchSubscriber.error (http://localhost:4200/vendor.js:189236:31)
+    at MapSubscriber._error (http://localhost:4200/vendor.js:186496:26)
+    at MapSubscriber.error (http://localhost:4200/vendor.js:186476:18)
+    at MapSubscriber._error (http://localhost:4200/vendor.js:186496:26)
+    at MapSubscriber.error (http://localhost:4200/vendor.js:186476:18)
+    at MapSubscriber._error (http://localhost:4200/vendor.js:186496:26)
+    at MapSubscriber.error (http://localhost:4200/vendor.js:186476:18)
+    at ThrowIfEmptySubscriber._error (http://localhost:4200/vendor.js:186496:26)", source: http://localhost:4200/vendor.js (69393)
+[7130:1:0116/175800.961968:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7130:1:0116/175800.962446:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175801.067208:INFO:CONSOLE(203278)] "[WDS] Live Reloading enabled.", source: http://localhost:4200/vendor.js (203278)
+[6720:6720:0116/175802.541584:INFO:CONSOLE(98458)] "Angular is running in the development mode. Call enableProdMode() to enable the production mode.", source: http://localhost:4200/vendor.js (98458)
+[6720:6720:0116/175802.557131:INFO:CONSOLE(69393)] "ERROR Error: Uncaught (in promise): Error: Cannot match any routes. URL Segment: 'signup-login'
+Error: Cannot match any routes. URL Segment: 'signup-login'
+    at ApplyRedirects.noMatchError (http://localhost:4200/vendor.js:157407:16)
+    at CatchSubscriber.selector (http://localhost:4200/vendor.js:157371:28)
+    at CatchSubscriber.error (http://localhost:4200/vendor.js:189236:31)
+    at MapSubscriber._error (http://localhost:4200/vendor.js:186496:26)
+    at MapSubscriber.error (http://localhost:4200/vendor.js:186476:18)
+    at MapSubscriber._error (http://localhost:4200/vendor.js:186496:26)
+    at MapSubscriber.error (http://localhost:4200/vendor.js:186476:18)
+    at MapSubscriber._error (http://localhost:4200/vendor.js:186496:26)
+    at MapSubscriber.error (http://localhost:4200/vendor.js:186476:18)
+    at ThrowIfEmptySubscriber._error (http://localhost:4200/vendor.js:186496:26)", source: http://localhost:4200/vendor.js (69393)
+[6720:6720:0116/175802.607685:INFO:CONSOLE(203278)] "[WDS] Live Reloading enabled.", source: http://localhost:4200/vendor.js (203278)
+[7164:1:0116/175802.992435:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7164:1:0116/175802.992971:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175804.617311:INFO:CONSOLE(98458)] "Angular is running in the development mode. Call enableProdMode() to enable the production mode.", source: http://localhost:4200/vendor.js (98458)
+[6720:6720:0116/175804.643491:INFO:CONSOLE(69393)] "ERROR Error: Uncaught (in promise): Error: Cannot match any routes. URL Segment: 'signup-login'
+Error: Cannot match any routes. URL Segment: 'signup-login'
+    at ApplyRedirects.noMatchError (http://localhost:4200/vendor.js:157407:16)
+    at CatchSubscriber.selector (http://localhost:4200/vendor.js:157371:28)
+    at CatchSubscriber.error (http://localhost:4200/vendor.js:189236:31)
+    at MapSubscriber._error (http://localhost:4200/vendor.js:186496:26)
+    at MapSubscriber.error (http://localhost:4200/vendor.js:186476:18)
+    at MapSubscriber._error (http://localhost:4200/vendor.js:186496:26)
+    at MapSubscriber.error (http://localhost:4200/vendor.js:186476:18)
+    at MapSubscriber._error (http://localhost:4200/vendor.js:186496:26)
+    at MapSubscriber.error (http://localhost:4200/vendor.js:186476:18)
+    at ThrowIfEmptySubscriber._error (http://localhost:4200/vendor.js:186496:26)", source: http://localhost:4200/vendor.js (69393)
+[7164:1:0116/175804.655280:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[7164:1:0116/175804.667281:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[6720:6720:0116/175804.781964:INFO:CONSOLE(203278)] "[WDS] Live Reloading enabled.", source: http://localhost:4200/vendor.js (203278)

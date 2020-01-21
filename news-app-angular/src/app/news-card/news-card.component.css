@@ -1,0 +1,73 @@
+.buttonClass
+{
+    align-self: center;
+    width: fit-content;
+    height: min-content;
+    padding: auto;
+    margin-bottom: 2px;
+}
+
+.singleContents
+{
+    align-self: center;
+    text-align: center;
+    align-content: center;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    margin-bottom: 10vh;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    width: 415px;
+    align-self: center;
+    align-items: center;
+    color: black;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 6px 10px 0 black;
+    /* border-radius: 20px 20px 20px 20px; */
+}
+
+.img-fluid
+{
+    align-self: center !important;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow:0 3px 13px 0 grey;
+    height: 200px !important;
+    width: 410px !important;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.img-fluid:hover
+{
+    align-self: center !important;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow:0 5px 25px 0 black;
+    /* width: 90% !important; */
+}
+
+
+.content
+{
+    height: 5vh;
+    overflow-y: scroll;
+}
+
+.content2
+{
+    height: 8vh;
+    overflow: hidden;
+}
+
+.content3
+{
+    height: min-content;
+    overflow: hidden;
+}
+
+.btn-info :hover
+{
+    color: black !important;
+}
