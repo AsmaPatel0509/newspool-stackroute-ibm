@@ -68,7 +68,7 @@ public class UserServiceImplTest {
 	public void findByUsernameAndPasswordFailure(){
 		when(userDAO.findByUsernameAndPassword(Mockito.anyString(), Mockito.anyString())).thenReturn(user);
 		User user2 = service.findByUsername(user.getUsername());
-		assertEquals(user2, null);
+		assertEquals(null, user2);
 		verify(userDAO).findByUsername(user.getUsername());
 	}
 	@Test

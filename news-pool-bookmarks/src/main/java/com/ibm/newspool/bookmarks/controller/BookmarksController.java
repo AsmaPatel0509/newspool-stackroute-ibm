@@ -33,14 +33,13 @@ public class BookmarksController {
 	private BookmarkService bookmarkService;
 
 	@PostMapping("/addtobookmarks")
-	public ResponseEntity<?> addToBookmarks(@RequestBody Bookmarks bookmark)
+	public ResponseEntity<String> addToBookmarks(@RequestBody Bookmarks bookmark)
 			throws IOException, BookmarkExistsException, BookmarksNotFoundException {
 		List<Bookmarks> list = null;
 		int bookmarkId = 0;
 		try {
 			list = bookmarkService.getAllBookmarks();
 			bookmarkId = list.size();
-			System.out.println("List size: " + bookmarkId);
 			bookmarkId++;
 			bookmark.setBookmarkId(bookmarkId);
 		}
@@ -50,14 +49,14 @@ public class BookmarksController {
 		
 		List<Bookmarks> bList = bookmarkService.getBookmarkByTitle(bookmark.getTitle(), bookmark.getuserName());
 
-		if (bList.size() == 0) {
+		if (bList.isEmpty()) {
 			if (bookmarkService.addBookmark(bookmark)) {
-				return new ResponseEntity<String>("Created", HttpStatus.CREATED);
+				return new ResponseEntity<>("Created", HttpStatus.CREATED);
 			} else {
-				return new ResponseEntity<String>("Conflict", HttpStatus.CONFLICT);
+				return new ResponseEntity<>("Conflict", HttpStatus.CONFLICT);
 			}
 		} else {
-			return new ResponseEntity<String>("Conflict", HttpStatus.CONFLICT);
+			return new ResponseEntity<>("Conflict", HttpStatus.CONFLICT);
 		}
 	}
 
@@ -69,26 +68,26 @@ public class BookmarksController {
 	 * HttpStatus.OK); }
 	 */
 	@GetMapping("/getuserbookmarks")
-	public ResponseEntity<?> getBookmarksByUser(@RequestParam("username") String username) {
+	public ResponseEntity<List<Bookmarks>> getBookmarksByUser(@RequestParam("username") String username) {
 		logger.info("Getting bookmarks for user");
 		try {
 			List<Bookmarks> bookmarkList = bookmarkService.getAllBookmarksByUser(username);
 
-			return new ResponseEntity<List<Bookmarks>>(bookmarkList, HttpStatus.OK);
+			return new ResponseEntity<>(bookmarkList, HttpStatus.OK);
 		} catch (Exception e) {
-			return new ResponseEntity<String>("You haven't bookmarked anything yet", HttpStatus.CONFLICT);
+			return new ResponseEntity<>( HttpStatus.CONFLICT);
 
 		}
 	}
 
 	@DeleteMapping("/deletebookmark")
-	public ResponseEntity<?> deleteBookmark(@RequestParam("bookmarkId") Integer bookmarkId) {
+	public ResponseEntity<Boolean> deleteBookmark(@RequestParam("bookmarkId") Integer bookmarkId) {
 		try {
 			bookmarkService.deleteBookmark(bookmarkId);
 			logger.info("Bookmark deleted!");
-			return new ResponseEntity<Boolean>(HttpStatus.OK);
+			return new ResponseEntity<>(HttpStatus.OK);
 		} catch (Exception e) {
-			return new ResponseEntity<Boolean>(HttpStatus.CONFLICT);
+			return new ResponseEntity<>(HttpStatus.CONFLICT);
 		}
 
 	}

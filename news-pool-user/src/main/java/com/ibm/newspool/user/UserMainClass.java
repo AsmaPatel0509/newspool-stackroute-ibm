@@ -19,7 +19,7 @@ public class UserMainClass {
 
 	@Bean
 	public FilterRegistrationBean jwtFilter() {
-		FilterRegistrationBean<Filter> bean = new FilterRegistrationBean<Filter>();
+		FilterRegistrationBean<Filter> bean = new FilterRegistrationBean<>();
 		bean.setFilter(new AuthFilter());
 		bean.addUrlPatterns("/articles/bookmarks/*");
 		return bean;

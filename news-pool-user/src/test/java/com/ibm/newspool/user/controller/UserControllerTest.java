@@ -45,7 +45,7 @@ public class UserControllerTest {
 	@Before
 	public void setUp() throws Exception {
 		System.out.println("@Before ");
-		user = new User(11, "Asma Patel", "asmapatel", "asma.pat97@gmail.com", "9925642277");
+		user = new User(11, "Asma Patel", "asmapatel", "asma@gmail.com", "1234567890");
 		token = Jwts.builder().setId(user.getUsername()).setIssuedAt(new Date())
 				.signWith(SignatureAlgorithm.HS256, "usersecretkey").compact();
 		System.out.println("constructor ");

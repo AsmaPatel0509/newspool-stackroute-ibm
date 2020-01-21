@@ -52,7 +52,7 @@ public class UserController {
 	}
 
 	@PostMapping("/login")
-	public ResponseEntity<?> login(@RequestBody User user) throws UserNotFoundException {
+	public ResponseEntity<Map<String, String>> login(@RequestBody User user) throws UserNotFoundException {
 		User validuserList = userService.findByUsernameAndPassword(user.getUsername(), user.getPassword());
 
 		if (validuserList == null) {
@@ -65,8 +65,7 @@ public class UserController {
 			Map<String, String> tokenMap = new HashMap<String, String>();
 			tokenMap.put("token", token);
 			tokenMap.put("message", "User Successfully logged in");
-			ResponseEntity<Map<String, String>> response = new ResponseEntity<Map<String, String>>(tokenMap, HttpStatus.OK);
-			return response;
+			return new ResponseEntity<>(tokenMap, HttpStatus.OK);
 		}
 	}
 
@@ -75,14 +74,11 @@ public class UserController {
 		User userMatched = userService.findByUsername(user.getUsername());
 
 		if (userMatched == null) {
-			return new ResponseEntity<User>(userMatched, HttpStatus.CONFLICT);
+			return new ResponseEntity<>(userMatched, HttpStatus.CONFLICT);
 		} else {
-			return new ResponseEntity<User>(userMatched, HttpStatus.OK);
+			return new ResponseEntity<>(userMatched, HttpStatus.OK);
 		}
 	}
 }
 
-//return new ResponseEntity<User>(validuserList, HttpStatus.CONFLICT);
-//}else {
-//	return new ResponseEntity<User>(validuserList, HttpStatus.OK);
-//}	
+

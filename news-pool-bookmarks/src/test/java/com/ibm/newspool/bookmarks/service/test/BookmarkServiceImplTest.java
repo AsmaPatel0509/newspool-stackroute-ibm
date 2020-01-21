@@ -47,13 +47,13 @@ public class BookmarkServiceImplTest {
 		when(bookmarkDAO.findByUserName(Mockito.anyString())).thenReturn(bList);
 		when(bookmarkDAO.save(Mockito.any(Bookmarks.class))).thenReturn(bookmark);
 		Boolean result = service.addBookmark(bookmark);
-		assertEquals(result, true);
+		assertEquals(true, result);
 	}
 	@Test
 	public void addBookmarkFailure() throws BookmarkExistsException {
 		when(bookmarkDAO.findByUserName(Mockito.anyString())).thenReturn(null);
 		Boolean result = service.addBookmark(bookmark);
-		assertEquals(result, false);
+		assertEquals(false, result);
 	}
 	
 	@Test
@@ -61,7 +61,7 @@ public class BookmarkServiceImplTest {
 		Long l = null;
 		when(bookmarkDAO.deleteByBookmarkId(Mockito.anyInt())).thenReturn(l);
 		Boolean result = service.deleteBookmark(bookmark.getBookmarkId());
-		assertEquals(result, false);
+		assertEquals(false, result);
 	}
 	
 	@Test
@@ -74,7 +74,7 @@ public class BookmarkServiceImplTest {
 	@Test
 	public void getBookmarksByUserNameFailure() {
 		when(bookmarkDAO.findByUserName(Mockito.anyString())).thenReturn(bList);
-		assertEquals(bList, null);
+		assertEquals(null, bList);
 	}
 
 }
